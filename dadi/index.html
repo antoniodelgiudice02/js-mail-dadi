@@ -12,22 +12,31 @@
 
     <div class="background container vh-100">
 
-        <div class="row justify-content-center align-items-center h-100">
+        <div class="row justify-content-center align-items-center h-100 flex-column g-5 text-center">
+
+            <h1 id="text" class="my-3">Click "start" for play.</h1>
+
         
             <form class="col-6 text-center">
 
-                <h1 class="my-3">Click "start" for play.</h1>
 
                 <div class="d-flex justify-content-around g-2">
                     <div class="btn btn-primary w-25" id="start">START</div>
                     <input type="reset" class="btn btn-danger w-25 d-none" id="reset">
                 </div>
 
-                <span id="user-number" class="text-center"></span>
-                <span id="computer-number" class="text-center"></span>
+
 
 
             </form>
+            
+            <div class="col-6 d-flex justify-content-center" id="result-box">
+
+                <span id="user-number" class="text-center mx-5"></span>
+                <span id="computer-number" class="text-center mx-5"></span>
+
+            </div>
+
 
 
         </div>

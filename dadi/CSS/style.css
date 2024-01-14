@@ -1,0 +1,16 @@
+#result-box{
+
+}
+
+#user-number{
+    color: rgb(130, 205, 68);
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+#computer-number{
+    color: rgb(68, 116, 205);
+    font-size: 2rem;
+    font-weight: bold;
+}
